@@ -1,0 +1,10 @@
+{% if labels %}
+    <h1>Video classification</h1>
+    <br>
+    Available labels - {{ labels }}
+    <br>
+    <b>Predicted outcome for individual images</b> - {{predicted_label}}
+    <br>
+    <b>Final Predicted category of the video</b> - {{ prediction_label }}
+    
+{%endif%}

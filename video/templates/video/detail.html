@@ -1,0 +1,5 @@
+{% if video %}
+    <h1>{{ video.url }}</h1>
+    {% if error_message %} <strong>{{ error_message }} </strong> {% endif %}
+Status - {{ video.downloadStatus}}
+{%endif%}
